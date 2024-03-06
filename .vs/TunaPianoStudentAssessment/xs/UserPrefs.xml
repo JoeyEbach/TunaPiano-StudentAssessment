@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{F74820BE-D397-47D0-9F08-979CA7094C81}|https">
+  <MonoDevelop.Ide.ItemProperties.TunaPianoStudentAssessment PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+    <Files>
+      <File FileName="Program.cs" Line="106" Column="4" />
+      <File FileName="Models/Artist.cs" Line="15" Column="1" />
+      <File FileName="Models/Song.cs" Line="17" Column="1" />
+      <File FileName="Models/Genre.cs" Line="12" Column="1" />
+      <File FileName="../../../../.microsoft/usersecrets/e4311214-08ce-44c1-80fe-c5b3441bdd4c/secrets.json" Line="3" Column="2" />
+      <File FileName="TunaPianoStudentAssessmentDbContext.cs" Line="29" Column="4" />
+      <File FileName="appsettings.json" />
+      <File FileName="Properties/launchSettings.json" />
+      <File FileName="appsettings.Development.json" />
+      <File FileName="TunaPianoStudentAssessment.http" Line="7" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TunaPianoStudentAssessment" expanded="True">
+            <Node name="TunaPianoStudentAssessment">
+              <Node name="Models" expanded="True" />
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
