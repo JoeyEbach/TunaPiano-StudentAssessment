@@ -8,6 +8,7 @@ namespace TunaPianoStudentAssessment.DTOs
         public int ArtistId { get; set; }
         public string Album { get; set; }
         public decimal Length { get; set; }
+        public List<int> GenreId { get; set; }
     }
 }
 

@@ -35,7 +35,15 @@ app.MapPost("/songs/new", (TunaPianoStudentAssessmentDbContext db, SongDto dto) 
 {
     try
     {
-        Song newSong = new(){ Title = dto.Title, ArtistId = dto.ArtistId, Album = dto.Album, Length = dto.Length };
+        Song newSong = new(){ Title = dto.Title, ArtistId = dto.ArtistId, Album = dto.Album, Length = dto.Length, Genres = new List<Genre>()};
+        foreach (int genreId in dto.GenreId)
+        {
+            Genre genrePick = db.Genres.SingleOrDefault(g => g.Id == genreId);             
+            if (genrePick != null)
+            {
+            newSong.Genres.Add(genrePick);
+            }
+        }
         db.Songs.Add(newSong);
         db.SaveChanges();
         return Results.Created($"/songs/new/{newSong.Id}", newSong);
